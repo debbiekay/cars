@@ -13,17 +13,17 @@ body{
     background-color: #8d7b7b;
     border-radius: 50%;
     justify-content: left;
+    width: 20%;
 }
 
 img{
-    width: 80%;
+    width: 70%;
     border-radius: 50%;
     justify-content: end;
     padding-left: 15px;
 }
 
 .container{
-    width: 90%;
     display: flex;
     border: solid 4px #8d7b7b;
     border-radius: 15px;
@@ -33,7 +33,7 @@ img{
   color: #fff;
   background-color: #ebb70e;
   margin: 20px 0px 20px 20px;
-  padding: 80px;
+  padding: 40px;
   border-radius: 15px 0px 0px 15px;
 
 }
@@ -50,7 +50,7 @@ button{
         color: #fff;
         background-color: #1738c9;
         margin: 20px 20px 20px 0px;
-        padding: 80px;
+        padding: 40px;
         border-radius: 0px 15px 15px 0px;
 }
 
