@@ -1,4 +1,4 @@
-/* *{
+*{
     box-sizing: border-box;
 }
 
@@ -6,8 +6,9 @@ body{
     border: solid 15px white;
     margin: 0px;
     padding: 0px;
-    width: 100%;
-} */
+    /* width: 100%; */
+    background-color: #000;
+}
 
 .icon{
     background-color: #8d7b7b;
@@ -17,7 +18,7 @@ body{
 }
 
 img{
-    width: 70%;
+    width: 100%;
     border-radius: 50%;
     justify-content: end;
     padding-left: 15px;
@@ -25,8 +26,9 @@ img{
 
 .container{
     display: flex;
-    border: solid 4px #8d7b7b;
+    /* border: solid 4px #8d7b7b; */
     border-radius: 15px;
+    background-color: #fff;
 }
 
 .yellow{
@@ -54,8 +56,9 @@ button{
         border-radius: 0px 15px 15px 0px;
 }
 
-.blu{
+button.blu {
 background-color: #1738c9;
+
 }
 
 
